@@ -285,7 +285,7 @@ class DropdownListViewComponent extends ListViewComponent {
 
   Widget _builder(ListViewComponentData data) {
     return ListView.builder(
-      padding: EdgeInsets.only(top: 8.0),
+      padding: EdgeInsets.zero,
       itemBuilder: data.itemBuilder,
       itemCount: data.itemCount,
     );
