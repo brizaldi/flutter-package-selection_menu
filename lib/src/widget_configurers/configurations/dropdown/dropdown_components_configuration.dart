@@ -161,12 +161,12 @@ class DropdownAnimationComponent extends AnimationComponent
     return Material(
       color: Colors.transparent,
       child: Card(
-        margin: EdgeInsets.only(top: 2),
+        margin: EdgeInsets.only(top: 0),
         shape: ContinuousRectangleBorder(),
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 500),
           curve: Curves.easeOut,
-          padding: EdgeInsets.all(8.0),
+          padding: EdgeInsets.zero,
           child: SizeTransition(
             axisAlignment: -1.0,
             sizeFactor: _animation,
